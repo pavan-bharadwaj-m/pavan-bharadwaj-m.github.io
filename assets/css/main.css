@@ -3230,6 +3230,36 @@ input, select, textarea {
 #header { color: rgba(255, 255, 255, 0.6); }
 #header h1 { color: rgba(255, 255, 255, 0.8); }
 
+/* === Skill / Tech Tags Emphasis === */
+
+/* For tags styled as buttons */
+.button.small {
+  background-color: rgba(73, 191, 157, 0.12); /* subtle teal tint */
+  border-color: #49bf9d;
+  color: #2f6f60 !important;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* Hover: confidence, not noise */
+.button.small:hover {
+  background-color: #49bf9d;
+  color: #ffffff !important;
+}
+
+/* If tags are plain spans */
+.tag {
+  display: inline-block;
+  padding: 0.4em 0.8em;
+  margin: 0.25em 0.25em 0 0;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #2f6f60;
+  background-color: rgba(73, 191, 157, 0.12);
+  border: 1px solid #49bf9d;
+  border-radius: 0.35em;
+}
+
 
 
 
