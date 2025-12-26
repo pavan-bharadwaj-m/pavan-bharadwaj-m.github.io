@@ -3218,4 +3218,32 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+
 	}
+
+
+
+
+
+/* ---- Portfolio readability overrides ---- */
+#main {
+  color: #222;
+}
+
+#main h1, #main h2, #main h3, #main h4 {
+  color: #111;
+}
+
+#main p, #main li {
+  color: #222;
+}
+
+#main a {
+  color: #0b5bd3;
+}
+
+#main a:hover {
+  color: #094aa8;
+}
+
+
