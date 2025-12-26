@@ -206,14 +206,15 @@ input, select, textarea {
 	}
 
 	code {
-		background: #f7f7f7;
-		border-radius: 0.35em;
-		border: solid 2px #efefef;
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
-		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
-	}
+	background: rgba(73, 191, 157, 0.08);   /* subtle green tint */
+	border: solid 1.5px #49bf9d;            /* brand green */
+	border-radius: 0.35em;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 0.85em;
+	color: #1f1f1f;                          /* DARK TEXT */
+	padding: 0.25em 0.6em;
+}
+
 
 	pre {
 		-webkit-overflow-scrolling: touch;
@@ -3267,6 +3268,7 @@ input, select, textarea {
   border: 1px solid #49bf9d;
   border-radius: 0.35em;
 }
+
 
 
 
